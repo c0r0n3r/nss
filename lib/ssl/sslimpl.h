@@ -131,7 +131,7 @@ typedef enum { SSLAppOpRead = 0,
 #define SSL_NAMED_GROUP_COUNT 31
 
 /* The maximum DH and RSA bit-length supported. */
-#define SSL_MAX_DH_KEY_BITS 8192
+#define SSL_MAX_DH_KEY_BITS 16385
 #define SSL_MAX_RSA_KEY_BITS 8192
 
 /* Types and names of elliptic curves used in TLS */
